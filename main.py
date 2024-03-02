@@ -6,5 +6,3 @@ def f(x, n):
   elif x < n :
     return f(x + 3, n) + f(x * 3, n)
 print (f(7, 63))
-
-print('asda')
